@@ -1,0 +1,10 @@
+.pagination {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+    .page-link {
+        z-index: 0;
+    }
+}

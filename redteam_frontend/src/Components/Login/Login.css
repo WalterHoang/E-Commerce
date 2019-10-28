@@ -1,0 +1,93 @@
+form{
+    background-color:rgb(142, 182, 189);
+}
+ #pages{
+    margin-top: 15rem;
+}
+.signup{
+    margin-top: 2rem;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-bottom: 4rem;
+}
+.login-form{
+    margin-top: 2rem;
+    margin-right: 35%;
+    margin-left: 35%;
+    border-radius: 15px
+}
+
+.signup-btn{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/** Extra small devices (portrait phones, less than 576px)
+*/
+@media (max-width: 575.98px) {
+        form{
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        #pages{
+            margin-top: 8rem;
+            margin-right: 0;
+            margin-left: 0;
+            margin-bottom: 4rem;
+        }
+        .login-form{
+            margin-top: 0rem;
+        }
+        .signup{
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0 !important;
+        }
+        
+}
+
+/**Small devices (landscape phones, less than 768px)
+*/
+@media (max-width: 767.98px) {
+    h1{
+        margin-top: 5rem;
+    }
+
+}
+
+ /**Medium devices (tablets, less than 992px)
+*/
+@media (max-width: 991.98px) {
+    .signup{
+        margin-top: 5rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        border-radius: 15px
+    }
+    .login-form{
+        margin-top: 5rem;
+        margin-right: 40%;
+        margin-left: 40%;
+        border-radius: 15px
+    }
+}
+
+/**Large devices (desktops, less than 1200px)
+*/ 
+@media (max-width: 1199.98px) {
+    .signup{
+        margin-top: 5rem;
+        margin-right: 25%;
+        margin-left: 25%;
+        border-radius: 15px
+    }
+    .login-form{
+        margin-top: 5rem;
+        margin-right: 20%;
+        margin-left: 20%;
+        border-radius: 15px
+    }
+}
+
+

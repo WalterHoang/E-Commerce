@@ -1,0 +1,56 @@
+/*Homepage slideshow styles*/
+.carousel {
+  display: block;
+  height: 25rem;
+  width: 52rem;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+.carousel-control-prev-icon {
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.carousel-control-next-icon {
+  background-color: grey;
+  border-radius: 15px;
+}
+
+#slide-img {
+  background-color: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25rem;
+  width: 30rem;
+}
+
+.slide-caption-shoe {
+  color: black;
+  position: relative !important;
+  left: 20rem !important;
+  bottom: 10rem !important;
+  height: 100% !important;
+  width: 25% !important;
+}
+
+@media screen and (max-width: 450px) {
+
+  #slideshow {
+    display: none;
+  }
+}
+
+.slide-caption-basketball {
+  color: black;
+  position: relative !important;
+  left: 16rem !important;
+  bottom: 17rem !important;
+  height: 100% !important;
+}

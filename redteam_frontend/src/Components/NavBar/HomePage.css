@@ -1,0 +1,21 @@
+.newProducts {
+  width: 100%;
+  background-color: rgba(142, 182, 189, 0.534);
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.popular {
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hp-background {
+  background-color: white;
+}

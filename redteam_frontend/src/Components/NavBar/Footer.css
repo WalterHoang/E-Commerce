@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Love+Ya+Like+A+Sister|Poppins&display=swap');
+
+/* navbar styling*/
+#page-nav {
+  width: 100%;
+  border-spacing: 0;
+}
+
+#sahara {
+  font-family: 'Lato', sans-serif;
+}
+
+#navbar {
+  z-index: 5;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  position: fixed;
+  top: 0;
+  color: rgb(142, 182, 189);
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Lato', sans-serif;
+  font-family: 'Love Ya Like A Sister', cursive; color: rgb(142, 182, 189); */
+}
+
+.login1 {
+  /* margin-right: 10px; */
+  background: rgb(32, 40, 51);
+  text-align: right;
+  right: 0;
+  float: right;
+  width: 23%;
+  color: rgb(142, 182, 189);
+}
+
+.login2 {
+  text-align: right;
+  right: 0;
+  float: right;
+  margin-top: 1rem;
+  color: rgb(142, 182, 189);
+}
+
+.adminLogin1 {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.adminLogin,
+.adminLogin2 {
+
+  /* margin-top: 1rem; */
+  display: inline-block;
+  color: rgb(142, 182, 189);
+}
+
+.titleBox {
+  display: inline-block;
+  background: rgb(32, 40, 51);
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.navBarHide {
+  cursor: pointer;
+}
+
+#navbar #page-nav #top #notBurger {
+  background: rgb(32, 40, 51);
+  margin: 0;
+  width: 100%;
+  position: relative;
+  color: rgb(142, 182, 189);
+}
+
+td #dropdown {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#page-nav label,
+#hamburger,
+tbody #top #burger {
+  display: none;
+}
+
+/* #top #burgerContent #b #c .dropdown a */
+#page-nav .row {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#page-nav .row #dropdown {
+  display: inline-block;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+}
+
+#page-nav .row .dropdown::after {
+  clear: both;
+}
+
+#notBurger {
+  width: 50%;
+}
+
+
+/* -----------------------------------------------------------------------*/
+
+.footer {
+  z-index: 1;
+  width: 100%;
+  max-height: 25px;
+  background-color: rgb(32, 40, 51);
+  ;
+  position: fixed;
+  bottom: 0;
+  border-radius: 5px 5px 0px 0px;
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: rgb(142, 182, 189);
+}
+
+/*styling to prevent page content from being hidden by navbar*/
+#pages {
+  margin-top: 10%;
+}
+
+/* footer position styles*/
+.footer-left {
+  height: 25px;
+  float: left;
+}
+
+.footer-right {
+  text-align: right;
+  width: 50%;
+  left: 50%;
+  height: 25px;
+  float: right;
+}
+
+#s-logo {
+  height: 99%;
+  width: 25px;
+}
+
+#card-img {
+  max-height: 10rem;
+}
+
+#cardRow {
+  width: 100%;
+  display: inline-block;
+}
+
+#nav-logo {
+  left: 0;
+  margin-right: 1rem;
+  max-height: 3rem;
+  max-width: 5rem;
+  cursor: pointer;
+}
+
+.dropdown-content p {
+  color: rgb(32, 40, 51);
+}
+
+.dropbtn {
+  color: black
+}
+
+@media screen and (max-width: 1101px) {
+  .card-subtitle {
+    display: none;
+  }
+}

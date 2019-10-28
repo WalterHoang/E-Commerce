@@ -1,0 +1,36 @@
+.search-container{
+    padding-right: 10px;
+    
+}
+#searchForm{
+    background-color: transparent;
+}
+#searchbtn{
+    text-align: center;
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+    padding-bottom: 5px;
+   margin-top: 0.5px;
+}
+#searchForm{
+   float: right;
+    width: 17rem;
+    display: inline;
+}
+.searchBar{
+   float: left;
+}
+@media screen and (max-width: 575px) {
+    #searchForm{
+        float: right;
+         /* width:5rem;  */
+         width: 40%;
+     }
+     #searchbtn{
+        display: none;
+     }
+     .search-container{
+        
+         display: inline;
+     }
+}

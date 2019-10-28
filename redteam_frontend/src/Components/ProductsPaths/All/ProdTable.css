@@ -1,0 +1,140 @@
+.product-table {
+  margin-left: -3%;
+  border-radius: 15px;
+}
+
+.cardz:hover {
+  border: 1px solid slategrey;
+  border-radius: 5px;
+  box-shadow: 3px 5px #888888;
+}
+
+@media (min-width: 1550px) {
+
+  .cardz {}
+}
+
+
+/** Extra small devices (portrait phones, less than 576px)
+*/
+@media (max-width: 575.98px) {
+  .product-table {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .cardz {
+    background-color: white;
+    border-radius: 15px;
+    border: 10px solid rgb(142, 182, 189) !important;
+    width: 100% !important;
+  }
+
+}
+
+/**Small devices (landscape phones, less than 768px)
+*/
+@media (min-width: 768px) {
+  .product-table {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  .cardz {
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 15rem !important;
+    margin-top: 2.5rem;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+    padding: 5px !important;
+  }
+
+  .card-img {
+    height: 5rem;
+    width: auto;
+  }
+}
+
+/**Small devices (landscape phones, less than 768px)
+*/
+@media (max-width: 768.9) {
+  .product-table {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  .cardz {
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 15rem !important;
+    margin-top: 2.5rem;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+    padding: 5px !important;
+  }
+
+  .card-img-top {
+    height: auto !important;
+    width: 5rem !important;
+  }
+}
+
+/**Medium devices (tablets, less than 992px)
+*/
+@media (max-width: 991.98px) {}
+
+
+/**Large devices (desktops, less than 1200px)
+*/
+/* @media (min-width: 1199.98px) {
+  .product-table {
+    width: 80% !important; 
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    
+  }
+  .cardz {
+    background-color:  white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 5.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    padding: 5px !important;
+  }
+}*/
+@media (min-width: 1023.98px) {
+  .product-table {
+    width: 80% !important;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+
+  }
+
+  .cardz {
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 3.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    padding: 5px !important;
+  }
+}
+
+/**Large devices (desktops, less than 1200px)
+*/
+/* @media (max-width: 1023.98px) {
+  .cardz {
+    margin-left: 8% !important;
+  }
+} */
